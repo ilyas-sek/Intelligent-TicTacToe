@@ -1,3 +1,7 @@
+import tkinter as tk
+from tkinter import ttk
+import random
+import json
 
 class TicTacToe:
     def __init__(self, initial_board=None):
@@ -98,12 +102,6 @@ class TicTacToe:
                 return
         # If the current state is not in the optimal strategy or the optimal move is not valid, make a random move
         self.make_computer_move()
-    
-import tkinter as tk
-from tkinter import ttk
-import random
-import json
-
 class TicTacToeGUI:
     def __init__(self, master, optimal_strategy_file):
         self.master = master
@@ -213,7 +211,7 @@ class TicTacToeGUI:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = TicTacToeGUI(root, 'c://Users//user//Documents//ENSIAS//3A//TPs Reinforcement Learning//TPS//TP1 Dynamic Programming//Optimal_strategy_DP.json')
+    app = TicTacToeGUI(root, 'Optimal_strategy_DP.json')
     root.mainloop()
 
 
