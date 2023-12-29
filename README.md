@@ -18,7 +18,7 @@ This project is a graphical implementation of the classic Tic Tac Toe game. It a
 
 - Graphical user interface (GUI) using Tkinter.
 - Two-player mode and a single-player mode against an AI with an optimal strategy.
-- Optimal move suggestions for the AI based on precomputed strategies.
+- Optimal move suggestions for the AI based on strategies trained using dynamic programming, Monte Carlo, or temporal difference methods.
 
 ## Requirements
 
